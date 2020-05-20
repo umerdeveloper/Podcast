@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CB9E5DFE2475B00800B978A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E5DFD2475B00800B978A6 /* AppDelegate.swift */; };
-		CB9E5E002475B00800B978A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E5DFF2475B00800B978A6 /* SceneDelegate.swift */; };
 		CB9E5E022475B00800B978A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E5E012475B00800B978A6 /* ViewController.swift */; };
 		CB9E5E052475B00800B978A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9E5E032475B00800B978A6 /* Main.storyboard */; };
 		CB9E5E072475B00900B978A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9E5E062475B00900B978A6 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		CB9E5DFA2475B00800B978A6 /* Podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9E5DFD2475B00800B978A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB9E5DFF2475B00800B978A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB9E5E012475B00800B978A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB9E5E042475B00800B978A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB9E5E062475B00900B978A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				CB9E5DFD2475B00800B978A6 /* AppDelegate.swift */,
-				CB9E5DFF2475B00800B978A6 /* SceneDelegate.swift */,
 				CB9E5E012475B00800B978A6 /* ViewController.swift */,
 				CB9E5E032475B00800B978A6 /* Main.storyboard */,
 				CB9E5E062475B00900B978A6 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				CB9E5E022475B00800B978A6 /* ViewController.swift in Sources */,
 				CB9E5DFE2475B00800B978A6 /* AppDelegate.swift in Sources */,
-				CB9E5E002475B00800B978A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 646XC4LJ39;
 				INFOPLIST_FILE = Podcast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.developers.Podcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 646XC4LJ39;
 				INFOPLIST_FILE = Podcast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.developers.Podcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
